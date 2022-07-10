@@ -3,6 +3,10 @@ import { NButton } from 'naive-ui';
 
 useHead({
   title: 'nuxt 3',
+  meta: [
+    { name: 'naive-ui-style' },
+    { name: 'vueuc-style' }
+  ],
   link: [
     {
       rel: 'icon', type: 'image/png', href: '/nuxt.png',

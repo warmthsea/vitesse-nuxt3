@@ -23,7 +23,7 @@
     ]
   },
   "pages/hi/[id].vue": {
-    "file": "_id_-f9324f66.mjs",
+    "file": "id_-f9324f66.mjs",
     "src": "pages/hi/[id].vue",
     "isDynamicEntry": true,
     "imports": [

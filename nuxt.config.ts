@@ -28,7 +28,7 @@ export default defineNuxtConfig({
 
   },
   vite: {
-    build:{
+    build: {
       assetsDir: 'static'
     },
     optimizeDeps: {
@@ -38,8 +38,8 @@ export default defineNuxtConfig({
           : [],
     },
   },
-  outDir: 'docs',
   app: {
+    baseURL: './',
     buildAssetsDir: '/static/'
   }
 })

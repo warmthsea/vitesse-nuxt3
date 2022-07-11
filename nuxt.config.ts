@@ -28,6 +28,9 @@ export default defineNuxtConfig({
 
   },
   vite: {
+    build:{
+      assetsDir: 'static'
+    },
     optimizeDeps: {
       include:
         process.env.NODE_ENV === 'development'
@@ -35,11 +38,8 @@ export default defineNuxtConfig({
           : [],
     },
   },
-  generate: {
-    dir: 'docs',
-    subFolders: false,
-  },
-  router: {
-    base: '/vitesse-nuxt3'
-  },
+  outDir: 'docs',
+  app: {
+    buildAssetsDir: '/static/'
+  }
 })

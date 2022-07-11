@@ -1,4 +1,4 @@
-{
+const client_manifest = {
   "node_modules/.pnpm/nuxt@3.0.0-rc.4_sass@1.53.0/node_modules/nuxt/dist/app/entry.mjs": {
     "file": "entry-549bf2e9.mjs",
     "src": "node_modules/.pnpm/nuxt@3.0.0-rc.4_sass@1.53.0/node_modules/nuxt/dist/app/entry.mjs",
@@ -62,4 +62,7 @@
       "node_modules/.pnpm/nuxt@3.0.0-rc.4_sass@1.53.0/node_modules/nuxt/dist/app/entry.mjs"
     ]
   }
-}
+};
+
+export { client_manifest as default };
+//# sourceMappingURL=client.manifest.mjs.map

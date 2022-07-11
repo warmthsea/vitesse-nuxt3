@@ -1,6 +1,7 @@
 import { defineNuxtConfig } from 'nuxt'
 
 export default defineNuxtConfig({
+  buildDir: "nuxt-build",
   modules: [
     '@vueuse/nuxt',
     '@unocss/nuxt',
@@ -28,9 +29,6 @@ export default defineNuxtConfig({
 
   },
   vite: {
-    build: {
-      assetsDir: 'static'
-    },
     optimizeDeps: {
       include:
         process.env.NODE_ENV === 'development'
